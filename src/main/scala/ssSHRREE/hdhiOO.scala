@@ -1,7 +1,7 @@
-package ssSHRREE
+package WordCount
 
 import org.apache.spark.sql.SparkSession
-object hdhiOO {
+object WordCountProgram {
   def main(args: Array[String]): Unit ={
     val spark = SparkSession
       .builder()
